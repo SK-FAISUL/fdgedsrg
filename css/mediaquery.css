@@ -1,0 +1,303 @@
+/* Mobail Version  */
+@media(max-width:544px){
+    .global-heading{
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    /* navigation part  */
+    .icon-part{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .menu-part{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .menu-part li a{
+        font-size: 10px;
+    }
+    .search-part{
+        width: 10%;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .title{
+        width: 100%;
+        height: 230px;
+    }
+    .title>.global-heading{
+        padding-top: 60px ;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .title>.pragraph{
+        width: 80%;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+    .title a button{
+        width: 30%;
+        margin: 0px;
+        margin-left: 20px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    label #btn{
+        display: block;
+        margin-left: 30px;
+    }
+    label #cencel{
+        margin-left: 30px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #303030;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navigation ul li {
+        display: block;
+        margin: 40px 0;
+        line-height: 10px;
+        border-bottom: 1px solid rgba(215, 190, 190, 0.509);
+    } 
+    .navigation ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cencel{
+        display:block;
+    }
+    /* tour part */
+    #tour{
+        width: 100%;
+        height: auto;
+        background-attachment: unset;
+    }
+    .tour-writting-part{
+        width: 100%;
+    }
+    .tour-writting-part>.global-heading{
+        margin-top: 20px;
+    }
+    .tour-writting-part>.pragraph{
+        width: 100%;
+        margin:15px auto;
+    }
+    .tour-box-part{
+        width: 90%;
+        margin: auto;
+    }
+    .box-part{
+        margin:10px 0px;
+        margin-left: 20px;
+        height: auto;
+    }
+    .box-part>.global-heading{
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .box-part>.pragraph{
+        width: 100%;
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    /* price part  */
+    #price{
+        width: 100%;
+        height: auto;
+        background-attachment: unset;
+    }
+    .price-writting-part{
+        width: 50%;
+        margin: auto;
+    }
+    .price-writting-part>.pragraph{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .price-part{
+        width: 90%;
+        margin:auto;
+    }
+    .price-box{
+        margin: 10px 0px;
+        margin-left: 30px;
+        height: auto;
+        padding: 5px 0px;
+    }
+    .price-box img{
+        width: 30px;
+    }
+    .price-box>.global-heading{
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .price-box>.pragraph{
+        width: 100%;
+        margin: auto;
+        padding-top: 5PX;
+        font-size: 6px;
+    }
+    .price-box a button{
+        font-size: 8px;
+        padding: 4px;
+    }
+    /* review part  */
+    .review-writting-part{
+        width: 50%;
+        float: left;
+        height: auto;
+    }
+    .review-writting-part>.global-heading{
+        padding-top: 20%;
+        font-size: 15px;
+        padding-left: 10%;
+    }
+    .review-writting-part>.pragraph{
+        font-size: 8px;
+        width: 100%;
+        padding-left: 10%;
+    }
+    .review-writting-part a button{
+        width: 60%;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    /* statics part  */
+    .statistic-writting-part{
+        width: 100%;
+    }
+    .statistic-box-part{
+        font-size: 10px;
+        margin: 10%;
+        margin-top: 0px;
+    }
+    .about-part>.pragraph{
+        width: 100%;
+        font-size: 10px;
+    }
+    #subscribe{
+        background-attachment: unset;
+    }
+    .subscrib-part{
+        width: 100%;
+    }
+    .subscrib-part>.pragraph{
+        width: 100%;
+        font-size: 15px;
+    }
+    #email{
+        width: 60%;
+        padding: 9px;
+        font-size: 15px;
+    }
+    .input button{
+        width: 30%;
+        padding: 11px;
+        font-size: 15px;
+    }
+    /* footer part  */
+    .musicology-footer{
+        padding: 10px;
+    }
+    .musicology-ditails{
+        padding: 5px;
+        margin: 0px;
+    }
+    .musicology-ditails>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-ditails>.pragraph{
+        font-size: 5px;
+    }
+    .musicology-ditails a i{
+        width: 24px;
+        margin: 10px 0px;
+        
+    }
+
+    .musicology-about{
+        padding: 5px;
+        margin: 0px;
+    }
+    .musicology-about>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-about a{
+        font-size: 5px;
+    }
+    .musicology-survice{
+        padding: 5px;
+        margin: 0px;
+    }
+    .musicology-survice>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-survice a{
+        font-size: 5px;
+    }
+    .musicology-other{
+        padding: 5PX;
+        margin: 0px;
+    }
+    .musicology-other>.global-heading{
+        font-size: 15px;
+    }
+    .musicology-other a{
+        font-size: 5px;
+    }
+
+}
+@media(min-width:456) and (max-width:767px){
+    /* header section  */
+    .icon-part{
+        width:  100%;    
+        text-align: center;
+        display: block;
+    }
+    .menu-part{
+        width:80%;
+        float:left;
+        text-align: end;
+    }
+    
+    .search-part{
+        width: 20%;
+        padding-left: 20PX;
+    }
+    /* tittle section  */
+    .title{
+        width: 100%;
+        height: 260px;
+    }
+    .title>.global-heading{
+       width: 100%;
+       font-size: 20px;
+       
+    }
+    .title>.pragaph{
+       width: 100%;
+       font-size: 5px;
+    }
+    /* tour part  */
+   
+}
+@media(max-width:607px){
+    
+}
